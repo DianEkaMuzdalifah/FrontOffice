@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SIM Laboratory</string>
+    <string name="login">Login</string>
+    <string name="alert">Alert</string>
+    <string name="keys">Keys</string>
+    <string name="bhp">BHP</string>
+    <string name="borrowing">Borrowing</string>
+    <string name="salary">Salary</string>
+    <string name="certificate">Certificate</string>
+    <string name="complain">Complain</string>
+    <string name="receiving">Receiving</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search</string>
+    <string name="input_nim">Input NIM</string>
+    <string name="name">Name</string>
+    <string name="input_name">Input Name</string>
+    <string name="category">Category</string>
+    <string name="submit">Submit</string>
+    <string name="pin">PIN</string>
+</resources>
