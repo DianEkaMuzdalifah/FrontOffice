@@ -27,11 +27,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SalaryActivity"
+        <activity
+            android:name=".SalaryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CertificateActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ComplainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReceivingVendorLaboranActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".ReceivingLaboranAslabActivity"
             android:screenOrientation="landscape"/>
-        <activity android:name=".CertificateActivity"
+        <activity android:name=".KeysTakeActivity"
             android:screenOrientation="landscape"/>
-        <activity android:name=".ComplainActivity"
+        <activity android:name=".KeysReturnActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".BorrowingTakeActivity"
             android:screenOrientation="landscape"/>
     </application>
 

@@ -17,4 +17,23 @@
     <string name="category">Category</string>
     <string name="submit">Submit</string>
     <string name="pin">PIN</string>
+    <string name="vendor">Vendor</string>
+    <string name="laboran">Laboran</string>
+    <string name="aslab">Aslab</string>
+    <string name="hour">Hour</string>
+    <string name="lab">Lab</string>
+    <string name="code">Code</string>
+    <string name="mk">MK</string>
+    <string name="taker">Taker</string>
+    <string name="hp">HP</string>
+    <string name="take">Take</string>
+    <string name="take_hour">Take Hour</string>
+    <string name="return_key">Return</string>
+    <string name="borrower">Borrower</string>
+    <string name="nip_nim">NIP/NIM</string>
+    <string name="facility">Facility</string>
+    <string name="event">Event</string>
+    <string name="date">Date</string>
+    <string name="representative">Representative</string>
+    <string name="my_self">My Self</string>
 </resources>
