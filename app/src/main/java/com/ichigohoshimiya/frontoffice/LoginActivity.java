@@ -29,13 +29,13 @@ public class LoginActivity extends AppCompatActivity {
                     startActivity(new Intent(LoginActivity.this, MainActivityLaboran.class));
                 }
                 else if (uname.getText().toString().equals("admin1") && pass.getText().toString().equals("admin1")){
-                    startActivity(new Intent(LoginActivity.this, MainActivityLaboran.class));
+                    startActivity(new Intent(LoginActivity.this, MainActivityAdmin.class));
                 }
                 else if (uname.getText().toString().equals("admin2") && pass.getText().toString().equals("admin2")){
-                    startActivity(new Intent(LoginActivity.this, MainActivityLaboran.class));
+                    startActivity(new Intent(LoginActivity.this, MainActivityAdmin.class));
                 }
                 else if (uname.getText().toString().equals("admin3") && pass.getText().toString().equals("admin3")){
-                    startActivity(new Intent(LoginActivity.this, MainActivityLaboran.class));
+                    startActivity(new Intent(LoginActivity.this, MainActivityAdmin.class));
                 }
                 else {
                     Toast.makeText(LoginActivity.this, "Gagal, Username atau Password salah!!!", Toast.LENGTH_SHORT).show();

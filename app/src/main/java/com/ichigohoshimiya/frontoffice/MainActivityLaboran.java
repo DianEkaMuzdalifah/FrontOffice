@@ -13,6 +13,14 @@ public class MainActivityLaboran extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_laboran);
 
+        ImageView imageAlert = (ImageView) findViewById(R.id.img_alert);
+        imageAlert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivityLaboran.this, AlertActivity.class);
+                startActivity(intent);
+            }
+        });
 
         ImageView imageCertificate = (ImageView) findViewById(R.id.img_cerficate);
         imageCertificate.setOnClickListener(new View.OnClickListener() {

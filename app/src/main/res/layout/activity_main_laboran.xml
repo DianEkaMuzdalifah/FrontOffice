@@ -22,6 +22,7 @@
             android:layout_marginLeft="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_alert"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:src="@drawable/ic_alert"
@@ -41,6 +42,7 @@
             android:layout_marginRight="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_salary"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:src="@drawable/ic_salary"
@@ -108,6 +110,7 @@
             android:background="@drawable/border"
             android:layout_marginRight="32dp">
             <ImageView
+                android:id="@+id/img_receiving"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
                 android:src="@drawable/ic_receiving"
