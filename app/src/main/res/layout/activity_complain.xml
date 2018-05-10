@@ -52,6 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="Name \t\t\t\t\t\t\t : "/>
                 <EditText
+                    android:id="@+id/et_nameComplain"
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
                     android:hint="@string/input_name"/>
@@ -81,10 +82,12 @@
                     android:layout_height="wrap_content"
                     android:text="Description \t\t\t\t\t : "/>
                 <EditText
+                    android:id="@+id/et_descriptionComplain"
                     android:layout_width="250dp"
                     android:layout_height="85dp"/>
             </LinearLayout>
             <Button
+                android:id="@+id/btn_save_complain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"

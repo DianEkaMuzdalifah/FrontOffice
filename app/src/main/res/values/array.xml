@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="categoryComplain">
+        <item>@string/category</item>
+        <item>@string/facility</item>
+        <item>@string/service</item>
+    </string-array>
+</resources>

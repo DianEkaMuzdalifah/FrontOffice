@@ -56,6 +56,13 @@
             android:screenOrientation="landscape" />
         <activity android:name=".BorrowingDetailActivity"
             android:screenOrientation="landscape"/>
+        <activity android:name=".HistoryComplainActivity"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".ComplainActivity"/>
+        <provider
+            android:authorities="com.ichigohoshimiya.frontoffice"
+            android:name=".ComplainProvider"
+            android:exported="false"/>
     </application>
 
 </manifest>
