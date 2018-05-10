@@ -14,7 +14,6 @@
     <string name="input_nim">Input NIM</string>
     <string name="name">Name</string>
     <string name="input_name">Input Name</string>
-    <string name="category">Category</string>
     <string name="submit">Submit</string>
     <string name="pin">PIN</string>
     <string name="vendor">Vendor</string>
@@ -31,9 +30,13 @@
     <string name="return_key">Return</string>
     <string name="borrower">Borrower</string>
     <string name="nip_nim">NIP/NIM</string>
-    <string name="facility">Facility</string>
     <string name="event">Event</string>
     <string name="date">Date</string>
     <string name="representative">Representative</string>
     <string name="my_self">My Self</string>
+    
+    
+    <string name="category">Category</string>
+    <string name="facility">Facility</string>
+    <string name="service">Services</string>
 </resources>

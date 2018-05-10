@@ -66,9 +66,15 @@
                 android:id="@+id/enter_pin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:inputType="number"
+                android:inputType="numberPassword"
                 android:maxLength="5"
-
+                android:layout_gravity="center">
+            </EditText>
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OK"
                 android:layout_gravity="center"/>
         </LinearLayout>
     </LinearLayout>
