@@ -51,7 +51,10 @@
         <activity
             android:name=".BorrowingTakeActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".AlertActivity"
+        <activity
+            android:name=".AlertActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".BorrowingDetailActivity"
             android:screenOrientation="landscape"/>
     </application>
 

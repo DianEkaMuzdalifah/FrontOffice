@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter Username"
             android:focusable = "true"
+            android:inputType="text"
             android:layout_marginTop = "32dp" />
 
         <EditText

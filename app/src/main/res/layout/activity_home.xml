@@ -24,6 +24,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_alert"
                 android:layout_gravity="center"/>
             <TextView
@@ -43,6 +44,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_key"
                 android:layout_gravity="center"/>
             <TextView
@@ -62,6 +64,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_bhp"
                 android:layout_gravity="center"/>
             <TextView
@@ -81,6 +84,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_borrowing"
                 android:layout_gravity="center"/>
             <TextView
@@ -108,6 +112,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_salary"
                 android:layout_gravity="center"/>
             <TextView
@@ -127,6 +132,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_certificate"
                 android:layout_gravity="center"/>
             <TextView
@@ -146,6 +152,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_complain"
                 android:layout_gravity="center"/>
             <TextView
@@ -165,6 +172,7 @@
             <ImageView
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_receiving"
                 android:layout_gravity="center"/>
             <TextView
