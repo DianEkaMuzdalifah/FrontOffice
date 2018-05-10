@@ -8,15 +8,23 @@ import android.text.InputType;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Spinner;
 
 public class ComplainActivity extends AppCompatActivity {
+    Spinner dropdownComplain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_complain);
+
+        dropdownComplain = (Spinner) findViewById(R.id.pilih_category);
+        String[] items = new String[]{"Category", "Facility", "Service"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
+        dropdownComplain.setAdapter(adapter);
 
         ImageView historyComplain = (ImageView) findViewById(R.id.history);
         historyComplain.setOnClickListener(new View.OnClickListener() {

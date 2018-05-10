@@ -15,8 +15,8 @@
         android:background="@color/putih">
         <ImageView
             android:layout_marginLeft="@dimen/dimen_16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/ic_certificate"/>
         <TextView
             android:layout_width="match_parent"
@@ -24,7 +24,8 @@
             android:layout_marginLeft="8dp"
             android:text="@string/certificate"
             android:textColor="@color/hitam"
-            android:textSize="18sp"/>
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -38,6 +39,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp">
             <EditText
+                android:id="@+id/nim_certificate"
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/input_nim"/>
@@ -83,4 +85,208 @@
                 android:layout_gravity="center"/>
         </LinearLayout>
     </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/table_certificate"
+            android:visibility="gone"
+            android:background="#ff0000"
+            android:layout_marginTop="@dimen/dimen_16"
+            android:gravity="center">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="NIM"
+                    android:layout_column="0"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MK"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Period"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Position"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No. Cert"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Percent"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Validation"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:layout_column="9"
+                    android:gravity="center"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taker"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Action"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:text="6706151115"
+                    android:layout_column="0"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bambang Stiawan"
+                    android:layout_column="1"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sistem Basis Data"
+                    android:layout_column="2"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017-1"
+                    android:layout_column="3"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Koordinator Asprak"
+                    android:layout_column="4"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="001217"
+                    android:layout_column="5"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="89%"
+                    android:layout_column="6"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES"
+                    android:layout_column="8"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+
+                <TextView
+                    android:id="@+id/tv_status_certificate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Untaken"
+                    android:layout_column="9"
+                    android:gravity="center"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/border_table"/>
+                <TextView
+                    android:id="@+id/tv_taker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bambang"
+                    android:layout_column="10"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/border_table"/>
+                <Button
+                    android:id="@+id/btn_table_certificate"
+                    android:layout_width="54dp"
+                    android:layout_height="30dp"
+                    android:text="Ambil"
+                    android:layout_column="11"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:background="@drawable/button"
+                    />
+            </TableRow>
+        </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
 </LinearLayout>

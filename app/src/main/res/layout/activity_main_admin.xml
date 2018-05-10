@@ -22,8 +22,10 @@
             android:layout_marginLeft="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_alert_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_alert"
                 android:layout_gravity="center"/>
             <TextView
@@ -41,8 +43,10 @@
             android:layout_marginRight="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_keys_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_key"
                 android:layout_gravity="center"/>
             <TextView
@@ -60,8 +64,10 @@
             android:layout_marginRight="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_bhp_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_bhp"
                 android:layout_gravity="center"/>
             <TextView
@@ -87,8 +93,10 @@
             android:layout_marginLeft="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_borrowing_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_borrowing"
                 android:layout_gravity="center"/>
             <TextView
@@ -106,8 +114,10 @@
             android:layout_marginRight="32dp"
             android:background="@drawable/border">
             <ImageView
+                android:id="@+id/img_complain_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_complain"
                 android:layout_gravity="center"/>
             <TextView
@@ -125,8 +135,10 @@
             android:background="@drawable/border"
             android:layout_marginRight="32dp">
             <ImageView
+                android:id="@+id/img_receiving_admin"
                 android:layout_width="75dp"
                 android:layout_height="75dp"
+                android:layout_marginTop="4dp"
                 android:src="@drawable/ic_receiving"
                 android:layout_gravity="center"/>
             <TextView
