@@ -9,7 +9,7 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class AlertActivity extends AppCompatActivity {
-    Button click;
+    Button clickA3, clickA6, clickA7;
     VideoView videoView;
     MediaController mediaController;
 
@@ -18,13 +18,33 @@ public class AlertActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert);
 
-        click = (Button) findViewById(R.id.a3);
+        clickA3 = (Button) findViewById(R.id.a3);
+        clickA6 = (Button) findViewById(R.id.a6);
+        clickA7 = (Button) findViewById(R.id.a7);
         videoView = (VideoView) findViewById(R.id.video_view);
         mediaController = new MediaController(this);
     }
 
     public void a3(View v){
         String videoPath = "android.resource://com.ichigohoshimiya.frontoffice/" + R.raw.cloud;
+        Uri uri = Uri.parse(videoPath);
+        videoView.setVideoURI(uri);
+        videoView.setMediaController(mediaController);
+        mediaController.setAnchorView(videoView);
+        videoView.start();
+    }
+
+    public void a6(View v){
+        String videoPath = "android.resource://com.ichigohoshimiya.frontoffice/" + R.raw.cloud_1;
+        Uri uri = Uri.parse(videoPath);
+        videoView.setVideoURI(uri);
+        videoView.setMediaController(mediaController);
+        mediaController.setAnchorView(videoView);
+        videoView.start();
+    }
+
+    public void a7(View v){
+        String videoPath = "android.resource://com.ichigohoshimiya.frontoffice/" + R.raw.cloud_2;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
         videoView.setMediaController(mediaController);

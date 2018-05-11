@@ -72,12 +72,14 @@
                             android:id="@+id/a6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="A6"/>
+                            android:text="A6"
+                            android:onClick="a6"/>
                         <Button
                             android:id="@+id/a7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="A7"/>
+                            android:text="A7"
+                            android:onClick="a7"/>
                         <Button
                             android:id="@+id/b1"
                             android:layout_width="wrap_content"
